@@ -1,4 +1,4 @@
-### Image Text Processing with PaddleOCR
+# Image Text Processing with PaddleOCR
 ## Overview
 This program processes images to extract text using the PaddleOCR library. It analyzes the text to classify it into headings and content based on font size and boldness.
 
@@ -9,8 +9,8 @@ Organized Output: Returns the extracted text in a structured format.
 
 ## Requirements
 Before running the code, ensure you have the following libraries installed:
-NumPy (numpy)
-PaddleOCR
+#### NumPy (numpy)
+#### PaddleOCR
 
 ## Explanation
 My process_fontsize.py file analyses the text and analyses the font size of all the text and make a threshold size as height above 0.3 times the average height. If the font size exceeds threshold, then it identifies it as header.
